@@ -7,7 +7,7 @@ module Language.C.Inline.Cpp
   , using
   ) where
 
-import           Data.Monoid ((<>), mempty)
+import           Data.Monoid ((<>))
 import qualified Language.Haskell.TH as TH
 
 import           Language.C.Inline
